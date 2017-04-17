@@ -1,0 +1,21 @@
+{
+    "name":"My ContentBox Site",
+    "version":"1.0.0",
+    "author":"Ortus Solutions",
+    "dependencies":{
+        "contentbox":"~3.5.1",
+        "coldbox":"^4.3.0+188",
+        "cbredis":"^1.0.0+17"
+    },
+    "devDependencies":{
+        
+    },
+    "installPaths":{
+        "contentbox":"modules/contentbox",
+        "coldbox":"coldbox",
+        "cbredis":"modules/cbredis"
+    },
+    "scripts":{
+        
+    }
+}
