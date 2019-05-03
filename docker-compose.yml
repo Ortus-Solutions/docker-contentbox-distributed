@@ -35,6 +35,7 @@ services:
     # Environment Variables
     environment:
       cfconfig_adminPassword: contentbox
+      BOX_INSTALL: "true"
       INSTALL: "true"
       # Database Connection
       DB_CONNECTION_STRING: "jdbc:mysql://database:3306/contentbox?useUnicode=true&characterEncoding=UTF-8&useLegacyDatetimeCode=true"
